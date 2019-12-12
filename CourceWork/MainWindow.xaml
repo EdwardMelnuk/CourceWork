@@ -1,0 +1,27 @@
+﻿<Window x:Class="CourceWork.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourceWork"
+        mc:Ignorable="d"
+        Title="Nicotine_Shop" Height="450" Width="800">
+    <Grid>
+        <StackPanel Panel.ZIndex="1" x:Name="Stack_Panel" Width="40" HorizontalAlignment="Left" Background="LightGray" Orientation="Vertical" MouseEnter="Stack_Panel_MouseEnter" MouseLeave="Stack_Panel_MouseLeave">
+            <Button Content="Login" x:Name="Log_btn" Background="White" FontSize="20" Click="Log_btn_Click" />
+            <Button Content="Цигарки" x:Name="siga_btn" Background="White" FontSize="20" Click="Siga_btn_Click" />
+            <Button Content="Снюс" x:Name="snus_btn" Background="White" FontSize="20" Click="Snus_btn_Click" />
+            <Button Content="Табак" x:Name="tab_btn" Background="White" FontSize="20" Click="Tab_btn_Click" />
+            <Button  x:Name="buy_btn" FontSize="20" Click="Buy_btn_Click" Margin="0 250 0 0" Width="40" Height="40">
+                <Button.Background>
+                    <ImageBrush ImageSource="C:\Users\Melnyk Eduard\source\repos\CourceWork\CourceWork\Korzina.png"/>
+                </Button.Background>
+            </Button>
+
+
+        </StackPanel>
+        <Frame Width="750" VerticalAlignment="Center" HorizontalAlignment="Right" Panel.ZIndex="0" Name="frame" Grid.Column="1" >
+
+        </Frame>
+    </Grid>
+</Window>

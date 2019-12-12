@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ArrayOfSnus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Snus>
+    <Name>Lyft Freze</Name>
+    <Price>230</Price>
+    <ImagePath>Lyft.jpg</ImagePath>
+  </Snus>
+  <Snus>
+    <Name>Corvus Brutal</Name>
+    <Price>200</Price>
+    <ImagePath>Corvus.jpg</ImagePath>
+  </Snus>
+  <Snus>
+    <Name>Siberia Red</Name>
+    <Price>195</Price>
+    <ImagePath>Siberia.jpg</ImagePath>
+  </Snus>
+</ArrayOfSnus>

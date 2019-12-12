@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ArrayOfSmoke xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Smoke>
+    <Name>LM Loft Blue</Name>
+    <Price>230</Price>
+    <ImagePath>LMloft.jpg</ImagePath>
+  </Smoke>
+  <Smoke>
+    <Name>Camel Blue</Name>
+    <Price>200</Price>
+    <ImagePath>CamelBlue.jpg</ImagePath>
+  </Smoke>
+  <Smoke>
+    <Name>Winston XStyle Blue</Name>
+    <Price>195</Price>
+    <ImagePath>WinstonXStyle.jpg</ImagePath>
+  </Smoke>
+</ArrayOfSmoke>

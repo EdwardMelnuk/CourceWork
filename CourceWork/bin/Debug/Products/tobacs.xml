@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ArrayOfTobac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tobac>
+    <Name>Bali Nature American Blend 40g</Name>
+    <Price>149</Price>
+    <ImagePath>BaliNature.jpg</ImagePath>
+  </Tobac>
+  <Tobac>
+    <Name>Capitain Black Cherry 30g</Name>
+    <Price>105</Price>
+    <ImagePath>CapitainBlack.jpg</ImagePath>
+  </Tobac>
+  <Tobac>
+    <Name>Graff Cherry 30g</Name>
+    <Price>89</Price>
+    <ImagePath>Graff.jpg</ImagePath>
+  </Tobac>
+</ArrayOfTobac>
